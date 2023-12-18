@@ -4,7 +4,7 @@ import bodyParser from "body-parser"
 import cors from "cors"
 
 const app = express()
-const port = 3010
+const port = 3020
 
 const db = mysql.createConnection({
     host: 'svc.sel5.cloudtype.app',
